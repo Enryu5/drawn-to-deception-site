@@ -1,0 +1,267 @@
+<!doctype html>
+<!--
+  Drawn to Deception — Support & Privacy Policy (GitHub Pages)
+
+  Fill in before publishing (search for "{{"):
+    {{DEVELOPER_NAME}}   your name or team name
+    {{CONTACT_EMAIL}}    support email address (appears in 3 places, incl. the mailto: links)
+    {{LOG_RETENTION}}    how long the server's technical logs are kept, e.g. "7 days"
+
+  Links for App Store Connect:
+    Support URL:         https://<your-github-username>.github.io/<repo-name>/
+    Privacy Policy URL:  https://<your-github-username>.github.io/<repo-name>/#privacy
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drawn to Deception — Support &amp; Privacy</title>
+<meta name="description" content="Support and privacy policy for Drawn to Deception, a party drawing game for iPhone.">
+<style>
+  :root {
+    --bg: #f0e5de;
+    --paper: #fbf7f2;
+    --ink: #311900;
+    --muted: #6b5847;
+    --line: #d9c8bb;
+    --accent: #891b1b;
+    --accent-soft: #f6e1dc;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b140f;
+      --paper: #241b15;
+      --ink: #f0e5de;
+      --muted: #bba99b;
+      --line: #3d3027;
+      --accent: #ff9b9b;
+      --accent-soft: #3a2220;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 var(--sans);
+  }
+  a { color: var(--accent); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 48px 0 24px; text-align: center; }
+  .kicker {
+    font: 600 13px/1 var(--mono);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+  h1 {
+    font: 800 clamp(32px, 7vw, 48px)/1.1 var(--sans);
+    letter-spacing: -0.02em;
+    margin: 0 0 12px;
+  }
+  .tagline { margin: 0 auto; max-width: 520px; color: var(--muted); }
+  nav {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+    margin: 24px 0 0;
+  }
+  nav a {
+    font: 600 14px/1 var(--mono);
+    text-decoration: none;
+    color: var(--ink);
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    padding: 10px 16px;
+  }
+  nav a:hover { background: var(--ink); color: var(--bg); }
+  section {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px 24px;
+    margin: 0 0 24px;
+  }
+  h2 { font-size: 26px; line-height: 1.2; margin: 0 0 4px; }
+  h3 { font-size: 18px; margin: 28px 0 6px; }
+  .meta { font: 14px/1.4 var(--mono); color: var(--muted); margin: 0 0 20px; }
+  .summary {
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 0 0 8px;
+  }
+  .summary ul { margin: 8px 0 0; padding-left: 20px; }
+  .contact {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 16px 20px;
+  }
+  .contact a.button {
+    font: 700 15px/1 var(--mono);
+    background: var(--ink); color: var(--bg);
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 12px 18px;
+  }
+  details {
+    border-top: 1px solid var(--line);
+    padding: 14px 0;
+  }
+  details:last-of-type { border-bottom: 1px solid var(--line); }
+  summary { cursor: pointer; font-weight: 700; }
+  details p, details ul { margin: 10px 0 0; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { font: 700 13px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding: 8px 0 48px; }
+  footer p { margin: 4px 0; }
+  @media (max-width: 520px) {
+    section { padding: 22px 16px; }
+    table, thead, tbody, tr, th, td { display: block; }
+    thead { display: none; }
+    tr { border-bottom: 1px solid var(--line); padding: 8px 0; }
+    td { border: 0; padding: 4px 0; }
+    td:first-child { font-weight: 700; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="kicker">Support &amp; Privacy</p>
+      <h1>Drawn to Deception</h1>
+      <p class="tagline">A party drawing game for iPhone. Draw, discuss and vote to unmask the traitor hiding among your friends.</p>
+      <nav aria-label="Page sections">
+        <a href="#support">Support</a>
+        <a href="#faq">FAQ</a>
+        <a href="#privacy">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="support" aria-labelledby="support-title">
+        <h2 id="support-title">Support</h2>
+        <p class="meta">We're happy to help.</p>
+        <div class="contact">
+          <span>Questions, bug reports or feedback? Email us at <a href="mailto:drawntodeception@gmail.com">drawntodeception@gmail.com</a></span>
+          <a class="button" href="mailto:drawntodeception@gmail.com?subject=Drawn%20to%20Deception%20support">Email support</a>
+        </div>
+        <h3>Reporting a problem</h3>
+        <p>It helps us a lot if you include:</p>
+        <ul>
+          <li>Your iPhone model and iOS version</li>
+          <li>The app version (shown in the App Store or TestFlight)</li>
+          <li>Roughly when it happened and which part of the game you were in (lobby, drawing, voting…)</li>
+          <li>A screenshot or screen recording, if you have one</li>
+        </ul>
+      </section>
+
+      <section id="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        <p class="meta">Quick fixes for common issues.</p>
+
+        <details>
+          <summary>How many players do I need?</summary>
+          <p>A game needs <strong>4 to 6 players</strong>, each on their own iPhone with an internet connection. Playing in the same room is the most fun, since you'll want to discuss who the traitor is.</p>
+        </details>
+
+        <details>
+          <summary>How do I start a game?</summary>
+          <p>One player taps <strong>Host</strong>, enters a nickname and gets a 4-character room code. Everyone else taps <strong>Join</strong> and enters that code. When at least 4 players are in the lobby, the host can start the game.</p>
+        </details>
+
+        <details>
+          <summary>It says the room was not found or is full.</summary>
+          <p>Check that the room code is typed exactly as shown on the host's screen. A room holds up to 6 players. If it's full, ask the host to start a new room.</p>
+        </details>
+
+        <details>
+          <summary>I got disconnected in the middle of a game.</summary>
+          <p>Open the app again right away. The game tries to reconnect you to your room automatically. If a player doesn't come back within a few seconds, the game may end for everyone (for example, if the traitor leaves). A stable Wi-Fi or mobile data connection gives the best experience.</p>
+        </details>
+
+        <details>
+          <summary>My nickname or prompt isn't accepted.</summary>
+          <p>If the text field shakes, the text contains a word that our filter blocks, or it's longer than the limit. Nicknames can be up to 12 characters, prompts up to 20. Try a different word.</p>
+        </details>
+
+        <details>
+          <summary>I can't hear any sound.</summary>
+          <p>Check that your iPhone isn't in Silent mode and that the volume is turned up.</p>
+        </details>
+      </section>
+
+      <section id="privacy" aria-labelledby="privacy-title">
+        <h2 id="privacy-title">Privacy Policy</h2>
+        <p class="meta">Effective date: November 22, 2026</p>
+
+        <div class="summary">
+          <strong>The short version</strong>
+          <ul>
+            <li>No accounts, no ads, no analytics and no tracking.</li>
+            <li>We don't save your nickname, drawings, prompts or votes. They only exist in our game server's memory while your game room is open.</li>
+            <li>We don't sell or share your information with anyone.</li>
+          </ul>
+        </div>
+
+        <p>This policy explains how Drawn to Deception ("the game", "we", "us"), made by Graphica Games, handles information when you play.</p>
+
+        <h3>Information used while you play</h3>
+        <p>To run a multiplayer game, your device sends the following to our game server, which passes it on to the other players in your room:</p>
+        <table>
+          <thead>
+            <tr><th>Information</th><th>Why it's needed</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Nickname and chosen avatar</td><td>So other players in your room can see who you are</td></tr>
+            <tr><td>Your drawings</td><td>So everyone can see and vote on them</td></tr>
+            <tr><td>Prompts you type</td><td>To pick what everyone draws</td></tr>
+            <tr><td>Your votes</td><td>To decide who gets voted out</td></tr>
+            <tr><td>Room code and a random session ID</td><td>To keep you in the right room and let you reconnect if your connection drops</td></tr>
+          </tbody>
+        </table>
+        <p>You don't need to give us your real name, email address, phone number or location to play.</p>
+
+        <h3>How long it's kept</h3>
+        <p>This information is held <strong>only in the game server's memory</strong> while your room is open. It is never written to a disk or database. It is erased when the room closes or the server restarts, and we can't recover it afterwards.</p>
+
+        <h3>Server logs</h3>
+        <p>To keep the server running, it writes technical log messages such as room codes, random session IDs and connection events. These logs don't contain nicknames, drawings, prompts or IP addresses. They are kept for 7 days and are only used to fix problems.</p>
+
+        <h3>Your connection</h3>
+        <p>Like any online game, connecting to our server means your device's IP address is visible to the server so it can send game data back to you. We don't log or store IP addresses. The server is hosted by Amazon Web Services.</p>
+
+        <h3>On your device</h3>
+        <p>The game doesn't save any personal information on your iPhone. The nickname and prompt filter runs entirely on your device. Sound and vibration features don't send any data anywhere.</p>
+
+        <h3>Other players</h3>
+        <p>Your nickname, avatar and drawings are shown to the other players in your room. We recommend playing with people you know. Our filter blocks many offensive words, but it can't catch everything.</p>
+
+        <h3>Apple</h3>
+        <p>The game is distributed through Apple's App Store and TestFlight. If you have chosen to share analytics with app developers in your iPhone settings, Apple may provide us with anonymous crash reports and usage statistics. This is governed by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>.</p>
+
+        <h3>Children</h3>
+        <p>We don't knowingly collect personal information from anyone, including children, and we don't store the information used during play.</p>
+
+        <h3>Your choices</h3>
+        <p>Because we don't keep your game data after your room closes, there is nothing stored for us to show you or delete. If you have any questions or concerns, contact us and we'll respond as soon as we can.</p>
+
+        <h3>Changes to this policy</h3>
+        <p>If we change how the game handles information, we'll update this page and the effective date above.</p>
+
+        <h3>Contact</h3>
+        <p>Questions about this policy? Email <a href="mailto:drawntodeception@gmail.com">drawntodeception@gmail.com</a>.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Graphica Games. All rights reserved.</p>
+      <p>The nickname filter uses the <a href="https://github.com/dsojevic/profanity-list" rel="noopener">profanity-list</a> by David Sojevic (MIT License).</p>
+    </footer>
+  </div>
+</body>
+</html>
